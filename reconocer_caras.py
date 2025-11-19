@@ -32,7 +32,7 @@ except Exception:
     # If loading the TTF font fails, use Pillow's default bitmap font
     font = ImageFont.load_default()
 
-# Iterate over images in the "images_to_test" folder to find and label faces
+# Iterate over images in the "images_to_test" folder tzo find and label faces
 for test_file in os.listdir("images_to_test"):
     # Only process JPEG and PNG files
     if test_file.endswith(".jpg") or test_file.endswith(".png"):
